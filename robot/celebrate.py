@@ -55,9 +55,12 @@ def watch():
         print(url)
         # url = 'https://roboticdogs.actionkit.com'
         try:
-            urequests.get(url)
-            # success!
-            celebrate()
+            resp = urequests.get(url)
+            if resp.status_code != 200:
+                print(f'Status code {resp.status_code} instead of 200')
+            else:
+                print('success!')
+                celebrate()
         except:
             print('no luck, let\'s wait and then try again.')
         time.sleep(WAIT_TIME)
