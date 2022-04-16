@@ -9,7 +9,7 @@ except:
 import servo
 
 WAIT_TIME = 5 * 60
-WAIT_TIME = 5
+
 SERVO = servo.Servo()
 
 # don't do redirects or tls
