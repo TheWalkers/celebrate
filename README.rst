@@ -1,8 +1,8 @@
-BUILDING
+**BUILDING**
 
 https://papersignals.withgoogle.com/getstarted#assemble-the-hardware
 
-CONFIGURE WIFI
+**CONFIGURE WIFI**
 
 Download repo - https://github.com/TheWalkers/celebrate
 
@@ -15,7 +15,7 @@ $ rshell
 > cp path_to_code/celebrate/robot/* /pyboard/
 
 
-MicroPython REPL
+**MicroPython REPL**
 
 screen /dev/tty.SLAB_USBtoUART 115200
 CTRL-A CTRL-\.
@@ -26,7 +26,7 @@ $ rshell
 > connect serial /dev/tty.SLAB_USBtoUART 115200
 > cp path_to_code/celebrate/robot/* /pyboard/
 
-REFLASH 
+**REFLASH**
 
 pip install esptool
 
