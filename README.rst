@@ -10,10 +10,11 @@ Replace wifi credentials in robot/connect.py.
 
 Install rshell - pip install rshell
 
+```
 $ rshell
 > connect serial /dev/tty.SLAB_USBtoUART 115200
 > cp path_to_code/celebrate/robot/* /pyboard/
-
+```
 
 **MicroPython REPL**
 
@@ -22,9 +23,11 @@ CTRL-A CTRL-\.
 
 or...
 
+```
 $ rshell
 > connect serial /dev/tty.SLAB_USBtoUART 115200
-> cp path_to_code/celebrate/robot/* /pyboard/
+> repl
+```
 
 **REFLASH**
 
